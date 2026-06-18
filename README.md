@@ -4,6 +4,16 @@
 
 Production-ready multi-agent MCP server specializing in Digital Marketing, Web Design, and Graphics Design trend analysis and actionable recommendations.
 
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @abdurrahmanpalashbd/trend-mcp --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/trend-mcp**
+
 ## Overview
 
 TrendMCP uses an orchestrator pattern with 5 specialized internal agents to analyze trends, evaluate opportunities, and produce implementation plans. The server routes user requests through appropriate agent chains to deliver actionable business intelligence.
