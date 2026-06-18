@@ -1,14 +1,17 @@
+# MCPize Configuration
+# Docs: https://mcpize.com/docs/mcpize-yaml
+
 version: 1
+
+name: "trend-mcp"
+slug: "trend-mcp"
+
 runtime: typescript
-entry: src/index.ts
 
 build:
-  install: npm ci
-  command: npm run build
+  install: "npm ci"
+  command: "npm run build"
 
-startCommand:
+start:
   type: http
-  command: node dist/index.js
-
-configSchema:
-  source: code
+  command: "node dist/index.js"
